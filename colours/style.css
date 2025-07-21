@@ -1,0 +1,30 @@
+#red{
+    color: red;
+    
+}
+#green{
+    color: green;
+}
+#blue{
+    color: blue;
+}
+#black{
+    color: black;
+}
+#white{
+    color: white;
+}
+#yellow{
+    color: yellow;
+}
+#cyan{
+    color: cyan;
+}
+#magenta{
+    color: magenta;
+}
+
+/* creating rgba */
+h2{
+    color: rgba(255, 0, 0, 0.5); /* red with 50% opacity */
+}
