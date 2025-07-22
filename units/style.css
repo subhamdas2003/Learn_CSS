@@ -1,0 +1,76 @@
+
+body{
+    background-color: hsl(0, 0%, 96%);
+}
+
+/*
+h1{
+    font-size: 54px;
+    color: purple;
+}
+
+p{
+    font-size: 30px;
+}
+
+.parent{
+    font-size:180%;
+    font-weight: bold;
+}
+ */
+
+/* 100%= 16px */
+/* 1 em = 16px */
+/* 
+ h1{
+    font-size: 3.375em;
+    color: purple;
+ }
+
+p{
+    font-size: 1.875em;
+}
+
+.parent{
+    font-size: 1.25em;
+    font-weight: bold;
+}
+
+li{
+    font-size:2em; 
+    font-weight: bold;
+    color: blue;
+} */
+
+
+html{
+    font-size: 10px;
+}
+
+
+/* 100%=16px;
+1px=6.25%;
+10px=62.5%; */
+
+
+/* 1rem=10px; */
+
+h1{
+    font-size: 5.4rem;
+    color: rgb(0, 255, 225);
+}
+
+p{
+    font-size: 3.6rem;
+    color: rgb(255, 0, 255);
+}
+h2{
+    font-size: 4rem;
+    color: rgb(0, 0, 255);
+}
+
+li{
+    font-size: 2rem; 
+    font-weight: bold;
+    color: blue;
+}
