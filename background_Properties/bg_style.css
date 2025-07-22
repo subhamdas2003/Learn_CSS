@@ -1,0 +1,28 @@
+
+#heading1{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 150px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 2px 2px 4px #fff200;
+    text-outline: 2px solid rgb(111, 0, 255);
+}
+
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: hsl(0, 0%, 96%);
+
+    /* background-image:url("https://wallpapercave.com/uwp/uwp4798905.jpeg"), url("https://wallpapercave.com/wp/wp3188042.jpg"); */
+
+    background-image: url("../images/IMG_20250623_102938616_HDR_AE.jpg");
+    background-repeat: no-repeat;
+    background-size:100% 100%; ;
+
+    /* background-position: top right; */
+
+    /* background-blend-mode:overlay; */
+
+    
+}
