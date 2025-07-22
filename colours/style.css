@@ -28,3 +28,10 @@
 h2{
     color: rgba(255, 0, 0, 0.5); /* red with 50% opacity */
 }
+
+.Learn_parentChild{
+    color: rgba(0, 255, 0, 0, 1); 
+}
+p{
+    color: currentColor; /* inherits color from parent */;
+}
