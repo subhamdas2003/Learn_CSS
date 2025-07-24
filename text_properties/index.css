@@ -1,0 +1,68 @@
+body{
+    background-color: hsl(0, 0%, 95%);
+    /* display: grid; */
+    /* place-items: center; */
+    /* width: 50%; */
+}
+
+h1{
+    font-size: 54px;
+    font-weight: 700;
+    
+    /* text properties */
+
+    text-align: center;
+
+
+    text-decoration-line: underline;
+
+    text-decoration-thickness: 2px; 
+    text-decoration-skip-ink: auto;
+    text-decoration-color: hsl(221, 100%, 50%);
+
+    text-decoration-style: solid; 
+    /* text-decoration-style: dashed; */
+    /* text-decoration-style: wavy;   (we can use double also) */
+
+    /* text-decoration: underline; */
+    /* text-decoration: overline; */
+    /* text-decoration: line-through; */
+    /* text-decoration: dotted underline; */
+
+    text-transform: capitalize;
+    /* text-transform: uppercase; */
+    /* text-transform: lowercase; */
+
+    letter-spacing: 6px;
+    word-spacing: 5px;
+    line-height: 1.5;
+    text-align: justify;
+    text-align-last: center;
+
+
+}
+
+p,a{font-size: 20px;
+    font-weight: 300;
+
+    /* text properties */
+     letter-spacing: 2.5px;
+    word-spacing: 5px;
+    line-height: 1.5;
+    text-align: justify;
+    text-align-last: center;
+
+    white-space: nowrap; /* prevents text from wrapping */
+    text-overflow: ellipsis; /* adds "..." at the end of the text if it overflows */
+    overflow: hidden; /* hides the overflowed text */
+
+
+}
+
+a{
+    text-decoration: none; /* removes underline */
+    color: hsl(221, 100%, 50%); /* sets text color */
+    transition: color 5.10s ease; /* adds transition effect on hover */
+
+    
+}
