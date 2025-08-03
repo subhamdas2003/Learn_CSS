@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section-border {
+    width:1000px;
+    color: white;
+    /* background-color: skyblue; */
+
+    /* border:10px solid rgb(20, 76, 88); */
+    border-width: 10px;
+    border-style: solid;
+    border-color: rgb(20, 76, 88);
+
+    border-top-color: red;
+    border-bottom:10px dotted blue;
+
+    border-right-style: dashed;
+    border-right-color: black;
+}
+
+/* #main-heading{
+    background-color: lightpink;
+    text-align: center;
+    border: 33px solid rgb(163, 48, 67)
+    border-radius: 10px;
+} */
+
+div{
+    width: 500px;
+    height: 500px;
+    /* background-color: lightgreen; */
+    border-color: green;
+    border-width:10px;
+    border-style: solid;
+
+    /* for all */
+    /* border-radius: 100px; */
+
+    /* for individual corners */
+    /* border-top-left-radius: 100px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 0px; */
+
+    /* border-radius: 100px 25px 100px 25px ; */
+
+    border-radius: 64% 36% 59% 41% / 75% 21% 79% 25% ;
+    background-image: linear-gradient(to right, red, yellow,lightgreen);
+
+    /* https://9elements.github.io/fancy-border-radius/ */
+    
+}
